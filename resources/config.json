@@ -10,6 +10,7 @@
             "port": "5432",
             "dialect": "postgres"
         },
-        "imageUploadType": "imgur"
+        "imageUploadType": "imgur",
+	"documentMaxLength": 1000000
     }
 }
