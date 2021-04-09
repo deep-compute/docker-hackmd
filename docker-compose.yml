@@ -16,7 +16,8 @@ services:
     restart: always
 
   app:
-    image: jaswanth098/codimd:1.5.0
+    # TODO need to remove below comment with proper name
+    # image: <image that is built>
     #mem_limit: 256mb         # version 2 only
     #memswap_limit: 512mb     # version 2 only
     #read_only: true          # not supported in swarm mode, enable along with tmpfs
