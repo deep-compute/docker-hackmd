@@ -13,8 +13,9 @@ services:
     volumes:
       - /home/deepcompute/docker-hackmd/online_data:/var/lib/mysql
       - ./resources/utf8.cnf:/etc/mysql/conf.d/utf8.cnf
-    ports:
-      - 3307:3306
+  #   - ./resources/general_logging.cnf:/etc/mysql/conf.d/general_logging.cnf
+  # ports:
+  #   - 127.0.0.1:3307:3306
     restart: always
 
   app:
