@@ -1,1 +1,4 @@
 kubernetes/chart/charts/*.tgz
+online_data
+env
+.env
