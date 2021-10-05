@@ -1,7 +1,7 @@
 FROM node:8.11.4-alpine
 
 # Build arguments to change source url, branch or tag
-ARG HACKMD_REPOSITORY=https://github.com/deep-compute/codimd.git
+ARG HACKMD_REPOSITORY=https://github.com/jaswanth098/codimd.git
 ARG VERSION=google-allowed-domains
 
 # Set some default config variables
