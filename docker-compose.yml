@@ -31,6 +31,9 @@ services:
     #  - /hackmd/public/uploads:size=10M
     environment:
       - HMD_DB_URL=mysql://${MYSQL_USER}:${MYSQL_PASSWORD}@database:3306/${MYSQL_DATABASE}
+      - HMD_PROTOCOL_USESSL=true
+      - HMD_DOMAIN=${HMD_DOMAIN}
+      - HMD_URL_ADDPORT=false
       - CMD_ALLOW_ANONYMOUS=false
       - CMD_DEFAULT_PERMISSION=limited
       - CMD_ALLOW_EMAIL_REGISTER=false
